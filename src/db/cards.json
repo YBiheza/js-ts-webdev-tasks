@@ -3,7 +3,7 @@
     "heading": "Startup Framework",
     "description": "Startup Framework works fine on devices supporting Retina Desplay. Feel the clarity!",
     "image": {
-      "name": "card-01.jpg",
+      "name": "mask1.png",
       "alt": "An image of three balloons"
     },
     "tags": [
@@ -27,5 +27,99 @@
         "title": "Generator"
       }
     ]
+  },
+  {
+    "heading": "Slides",
+    "description": "We have created a new product that will help designers create websites for their startups.",
+    "image": {
+      "name": "layout2.png",
+      "alt": "A layout"
+    },
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "UI KIT"
+      },
+
+      {
+        "slug": "colorful",
+        "title": "Colorful"
+      },
+
+      {
+        "slug": "landing-page",
+        "title": "Landing Page"
+      },
+
+      {
+        "slug": "slide",
+        "title": "Slide"
+      }
+    ]
+  }, 
+  {
+    "heading": "Flat UI Pro",
+    "description": "  Components and blocks are fixed to the common and popular 12 Grid system.",
+    "image": {
+      "name": "sky3.png",
+      "alt": "Sky"
+    },
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "UI KIT"
+      },
+
+      {
+        "slug": "ux-kit",
+        "title": "UX KIT"
+      },
+
+      {
+        "slug": "design",
+        "title": "Design"
+      },
+
+      {
+        "slug": "flat",
+        "title": "Flat"
+      }, 
+
+      {
+        "slug": "web",
+        "title": "WEB"
+      }
+    ]
+  },
+  {
+    "heading": "Slides",
+    "description": "We have created a new product that will help designers create websites for their startups.",
+    "image": {
+      "name": "layout4.png",
+      "alt": "A layout"
+    },
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "UI KIT"
+      },
+
+      {
+        "slug": "colorful",
+        "title": "Colorful"
+      },
+
+      {
+        "slug": "landing-page",
+        "title": "Landing Page"
+      },
+
+      {
+        "slug": "slide",
+        "title": "Slide"
+      }
+    ]
   }
 ]
+
+
