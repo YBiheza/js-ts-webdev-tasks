@@ -1,0 +1,20 @@
+.footer {
+    background: 
+        url(../images/contact.png),
+        #000015;
+    padding: 497px 360px 132px 447px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.footer-title {
+    margin-bottom: -42px;
+}
+
+.smm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 78.5px;
+}
