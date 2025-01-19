@@ -1,47 +1,44 @@
-# SDC JavaScript/TypeScript Web Development Tasks
+# Halloween Website
 
-## Installation
+Implement **only three sections** (`hero`, `gallery` and `footer`) for both RTL and Enlish versions from design according [Figma Design](<https://www.figma.com/file/Z9i2HiOV3VtvhnqkKBUUon/Free-Halloween-Party-Time-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=rp5neXS05UbP5lGk-0>)
 
-### Fork current repository into your account
+## Requirements and scoring (maximum 10 points)
 
-1. Navigate to https://github.com/School-of-Digital-Competencies/js-ts-webdev-tasks
-2. Click on `Fork` button in the top right corner
-3. Select your personal account in the `Ownder` dropdown
-4. Don't change the `Repository name`
-5. _Uncheck_ button `Copy the main branch only`
-6. Click on `Create fork` button
-7. Navigate to your forked repository
+### General - 2 points
 
-### Cloning your forked repository with tasks into your local machine
+- Use Vite
+- Use TypeScript
+- Use HTML5
+- Download assets from Figma, put inside `assets` folder and use in the project
+  - if there is no any asset (like arabic fonts), replace with any font close to the missing one (https://fonts.google.com/) (there are filters for `Arabic` language fonts)
+- All CSS code for each component should be placed into and imported from a separate CSS file
 
-1. Navigate to your forker repository and click on blue button `Clone`
-2. In dropdown find section **Clone with SSH** and copy that url git@github:...git
-3. In console on your machine navigate to any folder you like and paste copied url after git clone: `git clone git@github...tasks.git`
-4. Type in yes if console asks you about fingerprint
-5. After cloning is done, in console type in `cd js-ts-webdev-tasks` and click Enter
-6. Now you should be in a folder `js-ts-webdev-tasks`
-7. In console type in `git config user.name "Name Surname"` where Name is your Name (same as on Github profile) and Surname is your Surname (same as on Github profile). **Your name should be written in English**. **Don't remove " " symbols**
-8. In console type in `git config user.email youremailaddress@student.ehu.lt` where `youremailaddress@student.ehu.lt` is your address you used to register on Github (the same as on Github profile)
-9. In console type in `git config user.name` and click Enter. You should see your name
-10. In console type in `git config user.email` and click Enter. You should see your email address
+### Hero section - 2 point
 
-## How to solve Hometasks
+- Implement all section (Header and Hero) using `template string and innerHTML` approach
+  - Approach example https://jsfiddle.net/nL4zb58v/
+  - Approach example https://github.com/School-of-Digital-Competencies/js-ts-webdev-lectures/blob/practice-21-10-2024-three-ways-working-with-dom-api/createElementWithTemplateString.js
 
-We are using different branches for your hometasks
+### Gallery section - 2 point
 
-```
-main - used for general repository instructions
-```
+- Implement all section (Halloween memories with images) using `document.createElement` approach
+  - Approach example https://jsfiddle.net/Lt6sa2cp/
+  - Approach example https://github.com/School-of-Digital-Competencies/js-ts-webdev-lectures/blob/practice-21-10-2024-three-ways-working-with-dom-api/createElementWithDocumentCreateElementAndAppend.js
 
-Each branch starting with `hometasks-...` contains a set of tasks dedicated to the lecture module.
+### Footer section - 1 point
 
-```
-hometasks-sections-hero
-hometasks-sections-forms
-...
-```
+- Implement all section (Footer) using `cloneNode and template tag` approach
+  - Approach example https://jsfiddle.net/4srewok9/2/
+  - Approach example https://github.com/School-of-Digital-Competencies/js-ts-webdev-lectures/blob/practice-21-10-2024-three-ways-working-with-dom-api/createElementWithTemplateHTMLElementTag.js
 
-To solve each hometask you must checkout to the related branch into your local cloned repository
+### Localization - 3 points
+
+
+- Add localization (two languages EN and AR)
+  - For loading locales please add mock request to backend (promise and setTimeout)
+- Support RTR/LTL versions (content from right to left for AR translation)
+- Localization example https://jsfiddle.net/L8x3hn76/1/
+- Localization example 2 https://github.com/School-of-Digital-Competencies/js-ts-webdev-lectures/blob/lecture-24-10-2024-css-module-router/src/main.ts
 
 ## How to copy new hometasks into your already forked repository
 
